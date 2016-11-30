@@ -1,0 +1,48 @@
+package assignment5;
+
+import java.util.Scanner;
+
+public class Ass5 {
+
+	public int doStuff(int number1thatdoesstuff) {
+		
+		try(Scanner input = new Scanner(System.in)) {
+			System.out.print("Enter the number1thatdoesstuff: ");
+			number1thatdoesstuff = input.nextInt();
+		}
+		
+		int number2thatdoesstuff = 1;
+		if (number1thatdoesstuff < 2) {
+			return number1thatdoesstuff;
+		}
+		
+		int number3thatdoesstuff = 1;
+		for (int i = 2; i < number1thatdoesstuff; i++) {
+			int number4thatdoesstuff = number2thatdoesstuff;
+			number2thatdoesstuff += number3thatdoesstuff;
+			number3thatdoesstuff = number4thatdoesstuff;
+		}
+		return number2thatdoesstuff;
+	}
+}
+
+public int calculateIndexedFibonacciNumber (int fibIndex) {
+	int fibNumberless1;
+	int fibNumberless2;
+
+	int fibNumber = 1;
+	if (fibIndex <= 0) {
+		error;
+	}
+	if (fibIndex <= 2) {
+		return fibNumber;
+	}
+	fibNumberLess2 = 1;
+	for (int i = 2; i < fibIndex; i++) {
+		fibNumberLess1 = fibNumber;
+		fibNumber = fibNumber + fibNumberLess2;
+		fibNumberLess2 = fibNumberLess1;
+	}
+	return fibNumber;
+}
+}

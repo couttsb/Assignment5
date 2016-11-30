@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Assignment5.makejar" default="makejar" basedir=".">
+	
+	<target name ="makejar" description="Create a jar for the Assignment 5 project">
+		<jar jarfile="Ass5.jar" includes="*.class" basedir="bin"/>
+	</target>
+	
+	<target name ="clean">
+		<delete dir="bin"/>
+	</target>
+	
+    <target name="compile" depends="clean">
+		<mkdir dir="bin"/>
+		<javac srcdir="scr" destdir="bin"/>
+	</target>
+	
+</project>
