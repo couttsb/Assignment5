@@ -4,6 +4,7 @@ public class Ass5Improved {
 	
 	public int calculateIndexedFibonacciNumber (int fibIndex) {
 		// This method will calculate the Fibonacci number from a given index. 
+		// Note that indices begin from 1 as it is a number rather than a java index.  
 		
 		// Variables are initialized in one location for easy alteration.
 		int fibNumber = 1;
