@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="BrentsPC" id="0" name="AllTests" package="computation" skipped="0" tests="1" time="0.0" timestamp="2016-12-02T22:15:54">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/Program Files/Eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="testclasses.dir" value="build/classes" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Java\jre\lib\resources.jar;C:\Java\jre\lib\rt.jar;C:\Java\jre\lib\sunrsasign.jar;C:\Java\jre\lib\jsse.jar;C:\Java\jre\lib\jce.jar;C:\Java\jre\lib\charsets.jar;C:\Java\jre\lib\jfr.jar;C:\Java\jre\classes" />
+
+          <property name="TODAY" value="December 2 2016" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502" />
+
+          <property name="jar.dir" value="build/jar" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="Brent" />
+
+          <property name="build.dir" value="build" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Java\jre\bin" />
+
+          <property name="ant.project.default-target" value="main" />
+
+          <property name="ant.project.name" value="Build Specification" />
+
+          <property name="DSTAMP" value="20161202" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Java\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="classes.dir" value="build/classes" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="CA" />
+
+          <property name="java.home" value="C:\Java\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="main-class" value="application.CompApp" />
+
+          <property name="ant.file" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5\Build.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/Program Files/Eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/" />
+
+          <property name="user.home" value="C:\Users\Brent" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="test.dir" value="test" />
+
+          <property name="java.library.path" value="C:\Java\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Acer\Remote Files\;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2016b\runtime\win64;C:\Program Files\MATLAB\R2016b\bin;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Users\Brent\AppData\Local\Microsoft\WindowsApps;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner computation.AllTests filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Brent\ECSE-321\Assignment5\Assignment5\${report.dir}\TEST-computation.AllTests.xml crashfile=C:\Users\Brent\ECSE-321\Assignment5\Assignment5\junitvmwatcher9001325455180559186.properties propsfile=C:\Users\Brent\ECSE-321\Assignment5\Assignment5\junit6994774484834770286.properties" />
+
+          <property name="java.class.path" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5\lib;C:\Users\Brent\ECSE-321\Assignment5\Assignment5\lib\ant-junit.jar;C:\Users\Brent\ECSE-321\Assignment5\Assignment5\lib\junit.jar;C:\Users\Brent\ECSE-321\Assignment5\Assignment5\build\jar\${Assignment5}.jar;C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-launcher.jar;C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar;C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit.jar;C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+
+          <property name="TSTAMP" value="1715" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/Program Files/Eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Brent\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Java\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="ant.file.type.Build Specification" value="file" />
+
+          <property name="ant.file.Build Specification" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5\Build.xml" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="ant.project.invoked-targets" value="check" />
+
+      </properties>
+
+      <error message="computation.AllTests" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: computation.AllTests
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="BrentsPC" id="1" name="ComputationTestAddSubstract" package="computation" skipped="0" tests="1" time="0.0" timestamp="2016-12-02T22:15:55">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/Program Files/Eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="testclasses.dir" value="build/classes" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Java\jre\lib\resources.jar;C:\Java\jre\lib\rt.jar;C:\Java\jre\lib\sunrsasign.jar;C:\Java\jre\lib\jsse.jar;C:\Java\jre\lib\jce.jar;C:\Java\jre\lib\charsets.jar;C:\Java\jre\lib\jfr.jar;C:\Java\jre\classes" />
+
+          <property name="TODAY" value="December 2 2016" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502" />
+
+          <property name="jar.dir" value="build/jar" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="Brent" />
+
+          <property name="build.dir" value="build" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Java\jre\bin" />
+
+          <property name="ant.project.default-target" value="main" />
+
+          <property name="ant.project.name" value="Build Specification" />
+
+          <property name="DSTAMP" value="20161202" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Java\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="classes.dir" value="build/classes" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="CA" />
+
+          <property name="java.home" value="C:\Java\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="main-class" value="application.CompApp" />
+
+          <property name="ant.file" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5\Build.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/Program Files/Eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/" />
+
+          <property name="user.home" value="C:\Users\Brent" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="test.dir" value="test" />
+
+          <property name="java.library.path" value="C:\Java\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Acer\Remote Files\;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2016b\runtime\win64;C:\Program Files\MATLAB\R2016b\bin;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Users\Brent\AppData\Local\Microsoft\WindowsApps;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner computation.ComputationTestAddSubstract filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Brent\ECSE-321\Assignment5\Assignment5\${report.dir}\TEST-computation.ComputationTestAddSubstract.xml crashfile=C:\Users\Brent\ECSE-321\Assignment5\Assignment5\junitvmwatcher3703459576536824309.properties propsfile=C:\Users\Brent\ECSE-321\Assignment5\Assignment5\junit710075944547276788.properties" />
+
+          <property name="java.class.path" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5\lib;C:\Users\Brent\ECSE-321\Assignment5\Assignment5\lib\ant-junit.jar;C:\Users\Brent\ECSE-321\Assignment5\Assignment5\lib\junit.jar;C:\Users\Brent\ECSE-321\Assignment5\Assignment5\build\jar\${Assignment5}.jar;C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-launcher.jar;C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar;C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit.jar;C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+
+          <property name="TSTAMP" value="1715" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/Program Files/Eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Brent\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Java\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="ant.file.type.Build Specification" value="file" />
+
+          <property name="ant.file.Build Specification" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5\Build.xml" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="ant.project.invoked-targets" value="check" />
+
+      </properties>
+
+      <error message="computation.ComputationTestAddSubstract" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: computation.ComputationTestAddSubstract
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="BrentsPC" id="2" name="ComputationTestDivideMultiply" package="computation" skipped="0" tests="1" time="0.0" timestamp="2016-12-02T22:15:55">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="lib.dir" value="lib" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="eclipse.pdebuild.templates" value="/C:/Program Files/Eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="testclasses.dir" value="build/classes" />
+
+          <property name="os.name" value="Windows 10" />
+
+          <property name="sun.boot.class.path" value="C:\Java\jre\lib\resources.jar;C:\Java\jre\lib\rt.jar;C:\Java\jre\lib\sunrsasign.jar;C:\Java\jre\lib\jsse.jar;C:\Java\jre\lib\jce.jar;C:\Java\jre\lib\charsets.jar;C:\Java\jre\lib\jfr.jar;C:\Java\jre\classes" />
+
+          <property name="TODAY" value="December 2 2016" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502" />
+
+          <property name="jar.dir" value="build/jar" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="Brent" />
+
+          <property name="build.dir" value="build" />
+
+          <property name="user.language" value="en" />
+
+          <property name="sun.boot.library.path" value="C:\Java\jre\bin" />
+
+          <property name="ant.project.default-target" value="main" />
+
+          <property name="ant.project.name" value="Build Specification" />
+
+          <property name="DSTAMP" value="20161202" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Java\jre\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="classes.dir" value="build/classes" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="CA" />
+
+          <property name="java.home" value="C:\Java\jre" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="main-class" value="application.CompApp" />
+
+          <property name="ant.file" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5\Build.xml" />
+
+          <property name="os.version" value="10.0" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="eclipse.pdebuild.scripts" value="/C:/Program Files/Eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/" />
+
+          <property name="user.home" value="C:\Users\Brent" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="test.dir" value="test" />
+
+          <property name="java.library.path" value="C:\Java\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Acer\Remote Files\;C:\MinGW\bin;C:\MinGW\msys\1.0\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2016b\runtime\win64;C:\Program Files\MATLAB\R2016b\bin;C:\Program Files\MATLAB\R2015b\runtime\win64;C:\Program Files\MATLAB\R2015b\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Users\Brent\AppData\Local\Microsoft\WindowsApps;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner computation.ComputationTestDivideMultiply filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Brent\ECSE-321\Assignment5\Assignment5\${report.dir}\TEST-computation.ComputationTestDivideMultiply.xml crashfile=C:\Users\Brent\ECSE-321\Assignment5\Assignment5\junitvmwatcher6106180613095254123.properties propsfile=C:\Users\Brent\ECSE-321\Assignment5\Assignment5\junit7059248692463641173.properties" />
+
+          <property name="java.class.path" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5\lib;C:\Users\Brent\ECSE-321\Assignment5\Assignment5\lib\ant-junit.jar;C:\Users\Brent\ECSE-321\Assignment5\Assignment5\lib\junit.jar;C:\Users\Brent\ECSE-321\Assignment5\Assignment5\build\jar\${Assignment5}.jar;C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-launcher.jar;C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar;C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit.jar;C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+
+          <property name="TSTAMP" value="1715" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="sun.os.patch.level" value="" />
+
+          <property name="eclipse.pdebuild.home" value="/C:/Program Files/Eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./" />
+
+          <property name="java.io.tmpdir" value="C:\Users\Brent\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Java\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="basedir" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Program Files\Eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="ant.file.type.Build Specification" value="file" />
+
+          <property name="ant.file.Build Specification" value="C:\Users\Brent\ECSE-321\Assignment5\Assignment5\Build.xml" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="src.dir" value="src" />
+
+          <property name="ant.project.invoked-targets" value="check" />
+
+      </properties>
+
+      <error message="computation.ComputationTestDivideMultiply" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: computation.ComputationTestDivideMultiply
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+</error>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
